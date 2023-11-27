@@ -1,9 +1,9 @@
 replicaCount: 1
-name: jfrog-nginx
+name: trivial-go-web-app
 env: staging
 namespace: staging
 image:
-  name: jfrog-nginx
+  name: webserver-simple
   tag: 'a9f44751c23820745efef75e7a053b3ed8da6f8a'
   pullPolicy: IfNotPresent
 service:
