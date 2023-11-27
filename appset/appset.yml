@@ -7,11 +7,11 @@ spec:
   generators:
   - pullRequest:
       github:
-        owner: brandonphillips
+        owner: dinkol
         repo: preview-environments-example
         tokenRef:
           secretName: repo-3066764709
-          key: password
+          key: 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
         labels:
         - preview
       requeueAfterSeconds: 15
@@ -20,7 +20,7 @@ spec:
       name: 'simple-deployment-{{branch}}-{{number}}'
     spec:
       source:
-        repoURL: https://github.com/brandonphillips/preview-environments-example.git
+        repoURL: https://github.com/dinkol/preview-environments-example.git
         targetRevision: '{{head_sha}}'
         path: helm
         helm:
