@@ -1,5 +1,5 @@
 replicaCount: 1
-name: trivial-go-web-app
+name: trivial-nginx-app
 env: staging
 namespace: staging
 image:
