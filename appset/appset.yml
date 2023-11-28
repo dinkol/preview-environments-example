@@ -11,7 +11,7 @@ spec:
         repo: preview-environments-example
         tokenRef:
           secretName: repo-3066764709
-          key: "${{ secrets.KUBE_SECRET }}"
+          key: password
         labels:
         - preview
       requeueAfterSeconds: 15
