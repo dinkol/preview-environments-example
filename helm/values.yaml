@@ -1,4 +1,4 @@
-replicaCount: 2
+replicaCount: 1
 name: trivial-go-web-app
 env: staging
 namespace: staging
