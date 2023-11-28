@@ -21,7 +21,7 @@ spec:
     spec:
       source:
         repoURL: https://github.com/dinkol/preview-environments-example.git
-        targetRevision: '{{head_sha}}'
+        targetRevision: jfrog-branch
         path: helm
         helm:
           parameters:
