@@ -8,6 +8,6 @@ image:
   pullPolicy: IfNotPresent
 service:
   type: LoadBalancer
-  port: 8418
+  port: 8419
   targetPort: 8080
   portName: http
