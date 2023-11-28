@@ -6,8 +6,8 @@ import (
 )
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "I can do preview environments!\n\n")
-	fmt.Fprintf(w, "Release: v2.0.0")
+	fmt.Fprintf(w, "I can do evertyhing!\n\n")
+	fmt.Fprintf(w, "Release: v6.0.0")
 }
 
 func main() {
