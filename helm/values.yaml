@@ -4,10 +4,10 @@ env: staging
 namespace: staging
 image:
   name: webserver-simple
-  tag: 'a9f44751c23820745efef75e7a053b3ed8da6f8a'
+  tag: 'latest'
   pullPolicy: IfNotPresent
 service:
   type: LoadBalancer
-  port: 8418
+  port: 8414
   targetPort: 8080
   portName: http
